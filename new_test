@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+""" Test .all() methods
+"""
+from models import storage
+from models.state import State
+
+print("All objects: {}".format(storage.all()))
+print("State objects: {}".format(storage.all(State)))
